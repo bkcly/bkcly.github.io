@@ -653,8 +653,8 @@ jsonresume:
   - interests
   - references
 
-# Enable or disable project categories. Defaults to true
-enable_project_categories: true
+# # Enable or disable project categories. Defaults to true
+# enable_project_categories: true
 
 # Display projects without categories
 # projects_without_categories: false
