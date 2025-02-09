@@ -10,8 +10,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  image_size: 450px    # reduces the image size
-  margin_top: -10px    # moves the image up
+  image_size: 450px # reduces the image size
+  margin_top: -10px # moves the image up
   more_info: >
     <p></p>
 

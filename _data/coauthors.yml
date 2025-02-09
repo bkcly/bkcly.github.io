@@ -10,13 +10,13 @@
 #   - firstname: ["Tali"]
 #     url: ""
 
-"coulibaly":
-  - firstname: ["Bakary"]
-    url: ""
+# "coulibaly":
+#   - firstname: ["Bakary"]
+#     url: https://bkcly.github.io
 
 "navon":
   - firstname: ["David"]
-    url: ""  # Leave empty if no website available
+    url: "" # Leave empty if no website available
 
 "moffitt":
   - firstname: ["Stephanie L.", "Stephanie"]
