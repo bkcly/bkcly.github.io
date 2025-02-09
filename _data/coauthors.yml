@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# "adams":
+#   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"shore":
+  - firstname: ["Andrew", "Andrew M."]
+    url: https://www.nist.gov/people/andrew-shore
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+# "schlenoff":
+#   - firstname: ["Tali"]
+#     url: ""
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"coulibaly":
+  - firstname: ["Bakary"]
+    url: ""
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"navon":
+  - firstname: ["David"]
+    url: ""  # Leave empty if no website available
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"moffitt":
+  - firstname: ["Stephanie L.", "Stephanie"]
+    url: https://www.nist.gov/people/stephanie-moffitt
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"dougherty":
+  - firstname: ["Brian", "Brian P."]
+    url: https://www.nist.gov/people/brian-dougherty
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"hamadani":
+  - firstname: ["Behrang", "Behrang H."]
+    url: https://www.nist.gov/people/behrang-hamadani

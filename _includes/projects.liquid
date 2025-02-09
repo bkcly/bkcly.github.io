@@ -6,9 +6,10 @@
           include figure.liquid
           loading="eager"
           path=project.img
-          sizes = "250px"
+          max-height="250px"
+          class="card-img-top object-fit-cover"
+          sizes = "(max-width: 768px) 95vw, 400px"
           alt="project thumbnail"
-          class="card-img-top"
         %}
       {% endif %}
       <div class="card-body">

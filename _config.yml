@@ -7,16 +7,18 @@ first_name: Bakary
 #middle_name: R.
 last_name: Coulibaly
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please feel free to reach out to me via email at bcoulib9@gwu.edu or phone at 202-677-8929.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Welcome on my personal website and portfolio, showcasing my academic background,
+  technical skills, and projects. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: electrical-engineering, computer-engineering, ECE, academic-website, portfolio-website,jekyll # add your own keywords or leave empty
+lang: en, fr # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: "BC" # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bkcly.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -148,10 +150,12 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:title/
+    permalink: /news/:path/
   projects:
     output: true
-    permalink: /:collection/:title/
+    permalink: /projects/:path/
+    sort_by: importance
+    order: descending
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -192,6 +196,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_*.md
+  - _pages/teaching.md
+  - _pages/news.md
+  - _pages/blog.md
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -222,6 +231,12 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: page
+      selected: false
 
 sass:
   style: compressed
@@ -265,8 +280,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Coulibaly]
+  first_name: [Bakary]
 
   style: apa
   locale: en
@@ -387,7 +402,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
@@ -637,3 +652,12 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Enable or disable project categories. Defaults to true
+enable_project_categories: true
+
+# Display projects without categories
+# projects_without_categories: false
+
+# Enable or disable the selected projects section in the about page. Defaults to true
+enable_selected_projects: true

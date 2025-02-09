@@ -1,0 +1,15 @@
+{% assign projects = site.projects | where: "selected", true %}
+
+{% if page.selected_projects.scrollable and projects.size > 3 %}
+<div class="projects-scrollable">
+{% endif %}
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  {% for project in projects %}
+    {% include projects.liquid %}
+  {% endfor %}
+</div>
+
+{% if page.selected_projects.scrollable and projects.size > 3 %}
+</div>
+{% endif %} 

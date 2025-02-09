@@ -49,14 +49,26 @@
   ],
   "education": [
     {
-      "institution": "The George Washington University",
-      "location": "Washington, DC",
-      "url": "https://engineering.gwu.edu/",
-      "area": "Electrical Engineering",
-      "studyType": "M.S.",
+      "institution": "Lycée Rochambeau - French International School",
+      "location": "Bethesda, MD",
+      "url": "https://www.rochambeau.org/",
+      "area": "",
+      "studyType": "French Baccalaureate",
       "startDate": "",
-      "endDate": "2025-05-01",
-      "score": "",
+      "endDate": "2017-06-01",
+      "score": "Honors",
+      "courses": []
+    },
+
+    {
+      "institution": "Montgomery College",
+      "location": "Rockville, MD",
+      "url": "https://www.montgomerycollege.edu/",
+      "area": "Computer Engineering",
+      "studyType": "A.S.",
+      "startDate": "",
+      "endDate": "2021-05-01",
+      "score": "Honors",
       "courses": []
     },
     {
@@ -71,25 +83,14 @@
       "courses": []
     },
     {
-      "institution": "Montgomery College",
-      "location": "Rockville, MD",
-      "url": "https://www.montgomerycollege.edu/",
-      "area": "Computer Engineering",
-      "studyType": "A.S.",
+      "institution": "The George Washington University",
+      "location": "Washington, DC",
+      "url": "https://engineering.gwu.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "M.S.",
       "startDate": "",
-      "endDate": "2021-05-01",
-      "score": "Honors",
-      "courses": []
-    },
-    {
-      "institution": "Lycée Rochambeau - French International School",
-      "location": "Bethesda, MD",
-      "url": "https://www.rochambeau.org/",
-      "area": "",
-      "studyType": "French Baccalaureate",
-      "startDate": "",
-      "endDate": "2017-06-01",
-      "score": "Honors",
+      "endDate": "2025-05-01",
+      "score": "",
       "courses": []
     }
   ],
