@@ -260,11 +260,11 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 
 ## Installing and Deploying
 
-For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
+For installation and deployment details please refer to .
 
 ## Customizing
 
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
+For customization details please refer to .
 
 ## Features
 
