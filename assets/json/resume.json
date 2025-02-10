@@ -13,6 +13,7 @@
     {
       "name": "Institute for Security and Conflict Studies - GWU",
       "position": "Research Assistant",
+      "location": "Washington, DC",
       "url": "https://iscs.elliott.gwu.edu/initiatives/fao/",
       "startDate": "2022-10-01",
       "endDate": "2024-05-01",
@@ -22,6 +23,7 @@
     {
       "name": "Heat Transfer and Alternative Energy Systems Group - NIST",
       "position": "Foreign Guest Researcher",
+      "location": "Gaithersburg, MD",
       "url": "https://www.nist.gov/el/energy-and-environment-division-73200/heat-transfer-alternative-energy-systems",
       "startDate": "2020-08-01",
       "endDate": "2022-05-01",
@@ -31,6 +33,7 @@
     {
       "name": "IT Service Desk - Montgomery College",
       "position": "Student Aide",
+      "location": "Rockville, MD",
       "url": "",
       "startDate": "2020-01-01",
       "endDate": "2020-08-01",
@@ -40,6 +43,7 @@
     {
       "name": "Montgomery College",
       "position": "Learning Assistant (Principles of Chemistry I & Precalculus)",
+      "location": "Rockville, MD",
       "url": "",
       "startDate": "2019-01-01",
       "endDate": "2019-07-01",
@@ -55,8 +59,8 @@
       "area": "",
       "studyType": "French Baccalaureate",
       "startDate": "",
-      "endDate": "2017-06-01",
-      "score": "Honors",
+      "endDate": "2017-06",
+      "score": "Honors, Mention Bien",
       "courses": []
     },
 
@@ -65,9 +69,9 @@
       "location": "Rockville, MD",
       "url": "https://www.montgomerycollege.edu/",
       "area": "Computer Engineering",
-      "studyType": "A.S.",
+      "studyType": "Associate of Science",
       "startDate": "",
-      "endDate": "2021-05-01",
+      "endDate": "2021-05",
       "score": "Honors",
       "courses": []
     },
@@ -76,9 +80,9 @@
       "location": "Washington, DC",
       "url": "https://www.gwu.edu/",
       "area": "Computer Engineering",
-      "studyType": "B.S.",
+      "studyType": "Bachelor of Science",
       "startDate": "",
-      "endDate": "2023-05-01",
+      "endDate": "2023-05",
       "score": "Cum Laude",
       "courses": []
     },
@@ -87,10 +91,10 @@
       "location": "Washington, DC",
       "url": "https://engineering.gwu.edu/",
       "area": "Electrical Engineering",
-      "studyType": "M.S.",
+      "studyType": "Master of Science",
       "startDate": "",
-      "endDate": "2025-05-01",
-      "score": "",
+      "endDate": "2025-05",
+      "score": "GPA: 3.67/4.00",
       "courses": []
     }
   ],
@@ -164,11 +168,39 @@
   ],
   "awards": [
     {
-      "title": "SEAS Honor Award",
-      "date": "2025-05-01",
+      "title": "SEAS Honor Award - Master's",
+      "date": "2023-05-20",
       "awarder": "George Washington University",
       "url": "",
-      "summary": "Recognized for outstanding academic and research achievements."
+      "summary": "Scholarship award for outstanding academic performance."
+    },
+    {
+      "title": "Derrill Rohlfs Award of Best SEAS Senior Design - Bachelor's",
+      "date": "2023-05-15",
+      "awarder": "George Washington University",
+      "url": "https://seas.commencement.gwu.edu/sites/g/files/zaxdzs4556/files/2023-05/2023-seas-graduation-celebration-program_online_remediated.pdf",
+      "summary": "Awarded to the best senior design project in the School of Engineering and Applied Science."
+    },
+    {
+      "title": "Engineering Scholarship Award - Bachelor's",
+      "date": "2021-08-01",
+      "awarder": "George Washington University",
+      "url": "",
+      "summary": "Scholarship award for outstanding academic performance."
+    },
+    {
+      "title": "Renaissance Scholar Award - Associate's",
+      "date": "2020-05-20",
+      "awarder": "Montgomery College",
+      "url": "https://www.montgomerycollege.edu/academics/honors/renaissance-scholars.html",
+      "summary": "Awarded for academic excellence in honors program."
+    },
+    {
+      "title": "Dr. Harry Harden Jr. Student Academic Excellence Awards - Associate's",
+      "date": "2019-05-13",
+      "awarder": "Montgomery College",
+      "url": "https://www.montgomerycollege.edu/events/harry-harden-jr-academic-excellence-awards/",
+      "summary": "Awarded for excellence in academics."
     }
   ]
 }

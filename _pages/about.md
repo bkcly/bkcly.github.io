@@ -18,16 +18,6 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 selected_projects: true
-
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hello, 👋🏾 I'm a Master's student in Electrical Engineering at The George Washington University, where I'm working on techniques using convolutional neural networks to detect defects in photovoltaic modules. I hold a Bachelor's degree in Computer Engineering, which ignited my passion for low-voltage electronics, DIY projects, and rapid prototyping. Meanwhile, my ongoing Master's studies fuel my fascination with high-voltage power generation, distribution, and cutting-edge renewable energy solutions.
